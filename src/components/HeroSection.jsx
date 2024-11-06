@@ -12,7 +12,7 @@ const HeroSection = () => {
       </span>
       </h1>
 
-      <p className="mt-10 text-lg text-center text-neutral-500 max-w-4xl">
+      <p className="mt-10 text-lg text-center text-neutral-500 max-w-">
         Break free from traditional learning limits, unlock endless possibilities and discover a world where curiosity has no bounds.
       </p>
 

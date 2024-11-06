@@ -13,7 +13,7 @@ import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
 
 export const navItems = [
-  { label: "Features", href: "#" },
+  { label: "Explore", href: "#" },
   { label: "Workflow", href: "#" },
   { label: "Pricing", href: "#" },
   { label: "Testimonials", href: "#" },
@@ -58,30 +58,30 @@ export const testimonials = [
   },
 ];
 
-export const features = [
+export const explores = [
   {
     icon: <BotMessageSquare />,
-    text: "Drag-and-Drop Interface",
+    text: "Immersive Learning",
     description:
-      "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
+      "Experience education like never before with 360-degree views and interactive simulations",
   },
   {
     icon: <Fingerprint />,
-    text: "Multi-Platform Compatibility",
+    text: "Virtual Field Trips:",
     description:
-      "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
+      "Explore historical sites, scientific labs, and global landmarks from the comfort of your home",
   },
   {
     icon: <ShieldHalf />,
-    text: "Built-in Templates",
+    text: "Gamified Learning",
     description:
-      "Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.",
+      "Engage with educational content through fun and challenging games and quizzes",
   },
   {
     icon: <BatteryCharging />,
-    text: "Real-Time Preview",
+    text: "Expert Tutoring",
     description:
-      "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
+      "Access one-on-one tutoring from experienced educators and subject matter experts",
   },
   {
     icon: <PlugZap />,
