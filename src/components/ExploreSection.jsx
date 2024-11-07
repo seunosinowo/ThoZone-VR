@@ -21,14 +21,16 @@ const ExploreSection = () => {
             {explores.map((explore, index) => (
                 <div key={index} className='w-full sm:w-1/2 lg:w-1/3'>
                     <div className='flex'>
-                        <div className='mx-6 h-10 w-10 p-2 bg-neutral-900 text-green-700 justify-center items-center rounded-full'>
+                        <div className='flex mx-6 h-10 w-10 p-2 bg-neutral-900 text-green-700 justify-center items-center rounded-full'>
                             {explore.icon}
-                            {/* <div>{explore.text}
-                                <div>{explore.description}
+                        </div>
+                            <div>
+                                <h5 className='mt-1 mb-6 text-xl'>{explore.text}</h5>
+                                <div className='text-md text-neutral-500 p-2 mb-20 mt-auto'>{explore.description}
 
                                 </div>
-                            </div> */}
-                        </div>
+                            </div>
+                        
                     </div>
                 </div>
             ))}
