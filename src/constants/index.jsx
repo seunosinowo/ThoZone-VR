@@ -1,9 +1,9 @@
-import { BotMessageSquare } from "lucide-react";
-import { BatteryCharging } from "lucide-react";
-import { Fingerprint } from "lucide-react";
-import { ShieldHalf } from "lucide-react";
-import { PlugZap } from "lucide-react";
-import { GlobeLock } from "lucide-react";
+import { BookHeadphones } from "lucide-react";
+import { Navigation } from "lucide-react";
+import { Gamepad2 } from "lucide-react";
+import { MonitorPause } from "lucide-react";
+import { Users } from "lucide-react";
+import { ChartColumn } from "lucide-react";
 
 import user1 from "../assets/profile-pictures/user1.jpg";
 import user2 from "../assets/profile-pictures/user2.jpg";
@@ -60,37 +60,37 @@ export const testimonials = [
 
 export const explores = [
   {
-    icon: <BotMessageSquare />,
+    icon: <BookHeadphones />,
     text: "Immersive Learning",
     description:
       "Experience education like never before with 360-degree views and interactive simulations",
   },
   {
-    icon: <Fingerprint />,
-    text: "Virtual Field Trips:",
+    icon: <Navigation />,
+    text: "Virtual Field Trips",
     description:
       "Explore historical sites, scientific labs, and global landmarks from the comfort of your home",
   },
   {
-    icon: <ShieldHalf />,
+    icon: <Gamepad2 />,
     text: "Gamified Learning",
     description:
       "Engage with educational content through fun and challenging games and quizzes",
   },
   {
-    icon: <BatteryCharging />,
+    icon: <MonitorPause />,
     text: "Expert Tutoring",
     description:
       "Access one-on-one tutoring from experienced educators and subject matter experts",
   },
   {
-    icon: <PlugZap />,
+    icon: <Users />,
     text: "Collaboration Tools",
     description:
       "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
   },
   {
-    icon: <GlobeLock />,
+    icon: <ChartColumn />,
     text: "Analytics Dashboard",
     description:
       "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
@@ -130,20 +130,20 @@ export const pricingOptions = [
     title: "Free",
     price: "$0",
     features: [
-      "Private board sharing",
-      "5 Gb Storage",
-      "Web Analytics",
-      "Private Mode",
+      "Advanced VR Experiences",
+      "Customizable Learning Paths",
+      "Real-time Collaboration",
+      "Priority User Support",
     ],
   },
   {
     title: "Pro",
     price: "$10",
     features: [
-      "Private board sharing",
-      "10 Gb Storage",
-      "Web Analytics (Advance)",
-      "Private Mode",
+      "Enterprise-Grade VR Solutions",
+      "Private Virtual Environments",
+      "Advanced Analytics",
+      "Data Privacy and Security",
     ],
   },
   {
