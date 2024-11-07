@@ -97,26 +97,31 @@ export const explores = [
   },
 ];
 
-export const checklistItems = [
+export const stepItems = [
   {
-    title: "Code merge made easy",
+    title: "Engage and Interact",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Participate in interactive activities, discussions, and virtual workshops. Engage with peers and instructors in real-time.",
   },
   {
-    title: "Review code without worry",
+    title: "Experiment and Innovate",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Explore creative tools and technologies. Experiment with virtual reality and augmented reality to enhance your learning experience.",
   },
   {
-    title: "AI Assistance to reduce time",
+    title: "Reflect and Self-Assess",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Monitor your progress and reflect on your learning journey. Use self-assessment tools to identify areas for improvement.",
   },
   {
-    title: "Share work in minutes",
+    title: "Network and Connect",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Build relationships with peers and industry professionals. Collaborate on projects and share knowledge with a global community of learners.",
+  },
+  {
+    title: "Certify and Advance",
+    description:
+      "Earn certifications and credentials to validate your skills and advance your career. Achieve your learning goals and unlock new opportunities.",
   },
 ];
 

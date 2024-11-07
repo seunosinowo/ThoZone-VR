@@ -33,7 +33,7 @@ const HeroSection = () => {
             Your Browser does not support the video tag.
           </video>
 
-          <video autoPlay loop mute
+          <video autoPlay loop muted
           className="rounded-lg w-1/2 border border-green-400 shadow-green-400 mx-2 my-2">
             <source src={video2} type="video/mp4" />
           </video>
