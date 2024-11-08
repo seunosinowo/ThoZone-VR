@@ -4,7 +4,7 @@ import { stepItems } from "../constants"
 
 export const WorkFlow = () => {
   return (
-    <div className="mt-12 ">
+    <div className="mt-12" id="workflow">
         <h2 className="text-3xl sm:text-4xl lg:text-5xl text-center mt-6 mb-4 tracking-wide">A Step-by-Step Guide {""}
             <span className="bg-gradient-to-r from-green-400 to-green-800 text-transparent bg-clip-text">to Immersive Learning</span>
         </h2>
