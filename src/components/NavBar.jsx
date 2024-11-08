@@ -2,7 +2,6 @@ import logo from "../assets/logo.png"
 import { navItems } from "../constants";
 import { X, Menu } from "lucide-react";
 import { useState } from "react";
-import SignIn from "./SignIn";
 
 const NavBar = () => {
 
