@@ -54,7 +54,8 @@ const FooterTop = () => {
         </div>
 
         <div className="flex flex-wrap mt-12 w-full items-center justify-center border-neutral-700/80 border-t">
-            <h5 className="text-[16px] tracking-wide mt-3 font-extralight text-neutral-200">Your portal to new dimensions, © 2024 Osinowo Oluwaseun</h5>
+            <h5 className="text-[16px] tracking-wide mt-3 font-extralight text-neutral-200">
+                © 2024 Osinowo Oluwaseun</h5>
         </div>
 
         
