@@ -2,6 +2,7 @@ import logo from "../assets/logo.png"
 import { navItems } from "../constants";
 import { X, Menu } from "lucide-react";
 import { useState } from "react";
+import SignIn from "./SignIn";
 
 const NavBar = () => {
 
@@ -29,7 +30,7 @@ const NavBar = () => {
 
               <div className="hidden lg:flex justify-center space-x-12 items-center">
                 <a href="#" className="py-2 px-3 border rounded-md">
-                  Sign In
+                  Sign In 
                 </a>
 
                 <a href="#" className="bg-gradient-to-r from-green-500 to-green-800 py-2 px-3 rounded-md">

@@ -6,6 +6,7 @@ import { WorkFlow } from './components/WorkFlow'
 import { Pricing } from './components/Pricing'
 import Reviews from './components/Reviews'
 import FooterTop from './components/FooterTop'
+import SignIn from './components/SignIn'
 
 const App = () => {
   return (
