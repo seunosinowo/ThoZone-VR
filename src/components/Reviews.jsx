@@ -17,7 +17,7 @@ const Reviews = () => {
                         /> */}
 
                         <div>
-                            <h6>{review.user}</h6>
+                            <h6 className="font-extralight">{review.user}</h6>
                             <span className="text-sm font-normal italic text-neutral-600">{review.company}</span>
                         </div>
 

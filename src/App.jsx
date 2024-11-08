@@ -5,6 +5,7 @@ import ExploreSection from './components/ExploreSection'
 import { WorkFlow } from './components/WorkFlow'
 import { Pricing } from './components/Pricing'
 import Reviews from './components/Reviews'
+import FooterTop from './components/FooterTop'
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <WorkFlow/>
         <Pricing/>
         <Reviews/>
+        <FooterTop/>
       </div>
 
       </>
