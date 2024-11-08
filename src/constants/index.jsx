@@ -16,30 +16,30 @@ export const navItems = [
   { label: "Explore", href: "#" },
   { label: "Workflow", href: "#" },
   { label: "Pricing", href: "#" },
-  { label: "Testimonials", href: "#" },
+  { label: "Reviews", href: "#" },
 ];
 
-export const testimonials = [
+export const reviews = [
   {
-    user: "John Doe",
-    company: "Stellar Solutions",
+    user: "Palmer Luckey",
+    company: "American entrepreneur",
     image: user1,
-    text: "I am extremely satisfied with the services provided. The team was responsive, professional, and delivered results beyond my expectations.",
+    text: "In the past, before phones and the Internet, all communication was face-to-face. Now, most of it is digital, via emails and messaging services. If people were to start using virtual reality, it would almost come full circle.",
   },
   {
-    user: "Jane Smith",
-    company: "Blue Horizon Technologies",
+    user: "Curtis Hickman",
+    company: "Co-founder and chief creative officer of The VOID",
     image: user2,
-    text: "I couldn't be happier with the outcome of our project. The team's creativity and problem-solving skills were instrumental in bringing our vision to life",
+    text: "Virtual reality is all about democratizing storytelling. It gives people more control over the experience. Instead of trying to force a story upon you, we try and give you this huge playground through which you will create stories that you will then share through this medium",
   },
   {
-    user: "David Johnson",
-    company: "Quantum Innovations",
+    user: "Gabe Newell",
+    company: "President of Valve Corporation",
     image: user3,
-    text: "Working with this company was a pleasure. Their attention to detail and commitment to excellence are commendable. I would highly recommend them to anyone looking for top-notch service.",
+    text: "There's nobody who works in VR saying, 'Oh, I'm bored with this' Everybody comes back",
   },
   {
-    user: "Ronee Brown",
+    user: "Ronee --Brown",
     company: "Fusion Dynamics",
     image: user4,
     text: "Working with the team at XYZ Company was a game-changer for our project. Their attention to detail and innovative solutions helped us achieve our goals faster than we thought possible. We are grateful for their expertise and professionalism!",
@@ -130,10 +130,10 @@ export const pricingOptions = [
     title: "Free",
     price: "$0",
     features: [
-      "Advanced VR Experiences",
       "Customizable Learning Paths",
       "Real-time Collaboration",
       "Priority User Support",
+      "Ad-Supported",
     ],
   },
   {

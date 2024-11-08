@@ -4,6 +4,7 @@ import HeroSection from './components/HeroSection'
 import ExploreSection from './components/ExploreSection'
 import { WorkFlow } from './components/WorkFlow'
 import { Pricing } from './components/Pricing'
+import Reviews from './components/Reviews'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <ExploreSection/>
         <WorkFlow/>
         <Pricing/>
+        <Reviews/>
       </div>
 
       </>
